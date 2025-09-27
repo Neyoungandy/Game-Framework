@@ -55,6 +55,8 @@ This is a classic sliding puzzle game where you need to arrange numbered tiles i
 - `assets/` - Game assets (images and sounds)
 - `savegame.json` - Optional file for saving game state
 
+## Link to Video Presentation: https://youtu.be/SUok4K0HG30
+
 ## Requirements
 
 - Python 3.6+
