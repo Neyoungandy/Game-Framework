@@ -26,20 +26,23 @@ This is a classic sliding puzzle game where you need to arrange numbered tiles i
 
 1. Run the game:
    ```bash
-   python main.py
+   python puzzle_game/main.py
    ```
 
 2. Use arrow keys to move tiles:
-   - ↑ Move tile up into empty space
-   - ↓ Move tile down into empty space
-   - ← Move tile left into empty space
-   - → Move tile right into empty space
+   - ↑ Move tile from below empty space up
+   - ↓ Move tile from above empty space down
+   - ← Move tile from right of empty space left
+   - → Move tile from left of empty space right
 
 3. Press ESC to quit the game
 
 ## Game Controls
 
-- **Arrow Keys**: Move tiles
+- **↑ Arrow**: Move tile from below empty space up
+- **↓ Arrow**: Move tile from above empty space down  
+- **← Arrow**: Move tile from right of empty space left
+- **→ Arrow**: Move tile from left of empty space right
 - **ESC**: Quit game
 
 ## File Structure

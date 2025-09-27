@@ -65,14 +65,14 @@ class Grid:
         """Handle keyboard input for tile movement"""
         moves = self.get_possible_moves()
         
-        if key == pygame.K_UP and (self.empty_x, self.empty_y - 1) in moves:
-            self.move_tile((self.empty_x, self.empty_y - 1))
-        elif key == pygame.K_DOWN and (self.empty_x, self.empty_y + 1) in moves:
+        if key == pygame.K_UP and (self.empty_x, self.empty_y + 1) in moves:
             self.move_tile((self.empty_x, self.empty_y + 1))
-        elif key == pygame.K_LEFT and (self.empty_x - 1, self.empty_y) in moves:
-            self.move_tile((self.empty_x - 1, self.empty_y))
-        elif key == pygame.K_RIGHT and (self.empty_x + 1, self.empty_y) in moves:
+        elif key == pygame.K_DOWN and (self.empty_x, self.empty_y - 1) in moves:
+            self.move_tile((self.empty_x, self.empty_y - 1))
+        elif key == pygame.K_LEFT and (self.empty_x + 1, self.empty_y) in moves:
             self.move_tile((self.empty_x + 1, self.empty_y))
+        elif key == pygame.K_RIGHT and (self.empty_x - 1, self.empty_y) in moves:
+            self.move_tile((self.empty_x - 1, self.empty_y))
     
     def is_solved(self):
         """Check if the puzzle is solved"""
