@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Pygame
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Game specific
+*.log
+*.tmp
+temp/
+tmp/
+
+# Test files (optional - you might want to keep these)
+test_*.py
+*_test.py
+
+# Save files (optional - you might want to keep the example)
+# savegame.json
+
+# Audio/Video files that might be large
+*.wav
+*.mp3
+*.ogg
+*.mp4
+*.avi
+
+# Image files that might be large
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
